@@ -11,12 +11,12 @@ public class SpringController implements Serializable {
 
     @GetMapping("/hello")
     public String showHelloMsg() {
-      return "Welcome to SpringBoot....";
+      return "Welcome to SpringBoot from the Ansible Playbook....";
     }
 
     @GetMapping("/")	
     public String displayMsg() {
-      return "welcome to github-webhook"; 
+      return "welcome to github-webhook - docker - ansible "; 
     }
 
 }
